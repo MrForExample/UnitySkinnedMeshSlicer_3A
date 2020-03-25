@@ -12,7 +12,9 @@ Concise basic functions for slice skinned mesh in Unity3D; Accurately, Alternate
 
 ***Warning:*** this work is not end product, only include basic functions and some showcase code about cuts skinned mesh , one may need modify it before put in final game.
 ## Result
-![](Show.png)
+[Video on Reddit](https://www.reddit.com/r/Unity3D/comments/fon6t5/i_wrote_some_code_to_slice_demon_during_the/)
+
+![Screenshot](Show.png)
 ## Journey and Acknowledgments
 ### *First week: Try it myself!*
 Roughly two weeks before I write those words, I try to do something fun but not completely useless, so I choose to write something that can cuts skinned mesh. I've heard few paid addon does something similar, but I don't mind, the purpose of this journey for me is to do it myself!
