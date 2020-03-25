@@ -1,5 +1,5 @@
 # UnitySkinnedMeshSlicer_3A
-Concise basic functions about cuts skinned mesh in Unity3D; Accurately, Alternately, Asynchronously ; )
+Concise basic functions for slice skinned mesh in Unity3D; Accurately, Alternately, Asynchronously ; )
 ## Result
 ![](Show.png)
 ## Journey and Acknowledgments
