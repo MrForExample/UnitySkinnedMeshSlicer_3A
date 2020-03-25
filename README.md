@@ -1,5 +1,8 @@
 # UnitySkinnedMeshSlicer_3A
 Concise basic functions for slice skinned mesh in Unity3D; Accurately, Alternately, Asynchronously ; )
+## Info
+Developed and tested in: Unity 2019.3.3f1\
+Runtime: (Inter(R) Core(TM) i5-6300HQ Quad-core CPU) test on Skinned mesh with 20000 vertices and 37000 triangles with ragdoll colliders, without asynchronous the runtime is less than 0.2s, with asynchronous turn on there no any visible impact. 
 ## Result
 ![](Show.png)
 ## Journey and Acknowledgments
@@ -18,7 +21,7 @@ Lot of the approch are very similar with my work, because there no better answer
 
 But it did help, by the way it implement those methods, some of the code structure, data format, and especially few comments, hope the author of MeshSlicer don't mind if I modify bit code in to this public work. Special thanks to the author who create this addon, very good work, learn a lot from it.
 ### *Summary*
-Compare runtime, my work is faster than MeshSlicer, my laptop have (Inter(R) Core(TM) i5-6300HQ CPU) which just normal Quad-core CPU, use MeshSlicer to slice a character with 7000 vertices and 12000 triangles even with asynchronous turn on still gonna stuck for about 0.5 second, my work on the other hand to slice a character with 20000 vertices and 37000 triangles with asynchronous turn on the slice finished instantly, even without asynchronous the whole process is finish in less than 0.1 second.
+Compare runtime, my work is faster than MeshSlicer, my laptop have (Inter(R) Core(TM) i5-6300HQ CPU) which just normal Quad-core CPU, use MeshSlicer to slice a character with 7000 vertices and 12000 triangles even with asynchronous turn on still gonna stuck for about 0.5 second, my work on the other hand to slice a character with 20000 vertices and 37000 triangles with asynchronous turn on the slice finished instantly, even without asynchronous the whole process is finish in less than 0.2 second.
 
 Yes, one reason my work here is faster campare to MeshSlicer because it doesn't have some extra function, for example, check if the mesh have the hole inside, or optimize some vertices data while slice and etc...but MeshSlicer is end product took many more time than my merely two weeks, and many more code than my merely one thousand line of code, my work just like what i said, a concise basic functions about cuts skinned mesh in Unity3D, I does what I says.
 
