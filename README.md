@@ -1,8 +1,16 @@
 # UnitySkinnedMeshSlicer_3A
 Concise basic functions for slice skinned mesh in Unity3D; Accurately, Alternately, Asynchronously ; )
 ## Info
-Developed and tested in: Unity 2019.3.3f1\
-Runtime: (Inter(R) Core(TM) i5-6300HQ Quad-core CPU) test on Skinned mesh with 20000 vertices and 37000 triangles with ragdoll colliders, without asynchronous the runtime is less than 0.2s, with asynchronous turn on there no any visible impact. 
+***Files include:*** 
+- All code of this public work for slice and showcase
+- Demon model and animation find on [Mixamo](https://www.mixamo.com/#/)
+- Warehouse model find on [Sketchfab](https://sketchfab.com/3d-models/abandoned-warehouse-interior-scene-1d5285f2e0fd4211a27c8042496d5959)
+
+***Developed and Tested in:*** Unity 2019.3.3f1
+
+***Runtime:*** (Inter(R) Core(TM) i5-6300HQ Quad-core CPU) test on Skinned mesh with 20000 vertices and 37000 triangles with ragdoll colliders, without asynchronous the runtime is less than 0.2s, with asynchronous turn on there no any visible impact
+
+***Warning:*** this work is not end product, only include basic functions and some showcase code about cuts skinned mesh , one may need modify it before put in final game.
 ## Result
 ![](Show.png)
 ## Journey and Acknowledgments
