@@ -8,13 +8,13 @@ Roughly two weeks before I write those words, I try to do something fun but not 
 
 There basically few main problems: divide mesh by plane, create cap after divide, reassign bones weights to vertices, and calculate some other data for create new mesh. Those problems is not hard, just need find the way to pass some limit of unity engine and calculates, and I solved them days by days.
 
-Of course, there always lot of experiments to be done before one can know which approach does best. For example, there's the day I try to make slice perfect, try things like to distinguish each different area after slice, then I find out for slice 6000+ vertices skinned mesh, it gonna cost 10s on my "not so suck" laptop, which is useless in real-time game... well, meet old friend of any researcher -> when end of day you only know something will not working.
+Of course, there always lot of experiments to be done before one can know which approach does best. For example, there's the day I try to make slice perfect, try things like to distinguish each different area after slice, then I find out for slice 6000+ vertices skinned mesh, it gonna cost 10s on my "not so suck" laptop, which is useless in real-time game... well, meet old friend of any researcher -> when end of day you only know something won't work.
 ### *Second week: Learn from others!*
-And finally! after roughly one week of my afternoon from moment I started, those work of mine pay back with decent result. What I did next is compare it with other work that solve similar problems, after some search on internet, I find there really only two project work on this problems, [MeshSlicer](https://assetstore.unity.com/packages/tools/modeling/mesh-slicer-59618) and [LimbHacker](https://github.com/NobleMuffins/LimbHacker).
+And finally! after roughly one week of my afternoon, those work of mine pay back with decent result. What I did next is compare it with other work that solve similar problems, after some search on internet, I find there really only two project work on this problems, [MeshSlicer](https://assetstore.unity.com/packages/tools/modeling/mesh-slicer-59618) and [LimbHacker](https://github.com/NobleMuffins/LimbHacker).
 
 After try them both, I find that LimbHacker does really poor job on both slice and after slice, This tool is old and can't fill the cap correct. MeshSlicer on the other hand did fairly good job, so I decied look in it source code to see if I can learn anything to help me with my work.
 
-Lot of the approch are very similar with my work, because there no better answer to those narrow questions, the things that surprised me is we use the same method to fill the cap, I have to say I expect better one, well, guess good enough is enough right?
+Lot of the approch are very similar with my work, because there no better answer to those narrow questions, the things that surprised me is we use the same method to fill the cap, I have to say I expect better one, well, guess good enough is enough.
 
 But it did help, by the way it implement those methods, some of the code structure, data format, and especially few comments, hope the author of MeshSlicer don't mind if I modify bit code in to this public work. Special thanks to the author who create this addon, very good work, learn a lot from it.
 ### *Summary*
