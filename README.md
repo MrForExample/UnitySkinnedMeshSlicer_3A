@@ -1,8 +1,8 @@
 # UnitySkinnedMeshSlicer_3A
 Concise basic functions about cuts skinned mesh in Unity3D; Accurately, Alternately, Asynchronously ; )
 ## Result
-![](Show_0.png) ![](Show_1.png)
-![](Show_2.png) ![](Show_3.png)
+![](Show_0.png) ![](Show_2.png)
+![](Show_1.png) ![](Show_3.png)
 ## Journey and Acknowledgments
 ### *First week: Try it myself!*
 Roughly two weeks before I write those words, I try to do something fun but not completely useless, so I choose to write something that can cuts skinned mesh. I've heard few paid addon does something similar, but I don't mind, the purpose of this journey for me is to do it myself!
