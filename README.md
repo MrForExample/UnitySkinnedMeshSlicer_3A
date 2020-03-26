@@ -1,10 +1,13 @@
 # UnitySkinnedMeshSlicer_3A
 Concise basic functions for slice skinned mesh in Unity3D; Accurately, Alternately, Asynchronously ; )
 ## Info
+***Functions:*** Slice the skinned mesh and its convex colliders
+
 ***Files include:*** 
 - All code of this public work for slice and showcase
 - Demon model and animation find on [Mixamo](https://www.mixamo.com/#/)
 - Warehouse model find on [Sketchfab](https://sketchfab.com/3d-models/abandoned-warehouse-interior-scene-1d5285f2e0fd4211a27c8042496d5959)
+- Sword model find on [Free3D](https://free3d.com/3d-model/sting-sword-128810.html?__cf_chl_captcha_tk__=4f0bfa73acbb70457586db42bd937c1a6a06f594-1585190261-0-AZ9yYyjl3B4IOstp15V21x5PomZqVqLQldH8Wzzw7X_KyePau4ogMYxtfYizxNPzJCFlkjEelfVTjAmgHr3rir1tFFBcZVerSnckiiMLX_ANZzwCECvwx0WAQbKn3q3rWJhsmRS3AgD6hCyO0LyiDNWw-5raG907E-_wgErW9ooSZHGijeATPuDZ37u3ytt3LGxOrRqIgmMrllBzCz9RHguok0y7wSonmectPI8aRCOBHmn7vl41duYBCulUkfMcFUM1gn9oQGsgY9slFUsYyIvaR3CuS-Zxqy23iptxQNAijCKsahge0ues5a8dCBX8I7T54EoCn8z61jKHl60z3LEWM8_XSnbSnHKbnHEcIIvZwIuzp-YBm8tUp5FacdyJG7IfeBTUfBb5Vhy-IHmNPE5n8aIlmiXWQSckrZIt9eat)
 
 ***Developed and Tested in:*** Unity 2019.3.3f1
 
